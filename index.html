@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bang Weak 53</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="../Images/logo.PNG" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <header>
+    <div class="content flex_space">
+      <div class="logo">
+        <img src="Images/logo.png" alt="">
+      </div>
+      <div class="navlinks">
+        <ul id="menulist">
+          <li><a href="#home">หน้าแรก</a> </li>
+          <li><a href="#about">เกี่ยวกับเรา</a> </li>
+          <li><a href="#rooms">บ้านเช่า</a> </li>
+          <li><a href="#pages">ติดต่อเช่า</a> </li>
+          <li><a href="https://www.google.com/maps/@13.7373647,100.4415865,3a,75y,239.06h,90.13t/data=!3m7!1e1!3m5!1sqjcIOfdzQncJHm0kzasPlQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-0.12944245088677064%26panoid%3DqjcIOfdzQncJHm0kzasPlQ%26yaw%3D239.05923996107163!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D" target="_blank"><i class="fa-solid fa-map-location-dot"></i></a>ที่ตั้งบ้านเรา</li>
+        </ul>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+      </div>
+    </div>
+  </header>
+
+
+  <script>
+    var menulist = document.getElementById('menulist');
+    menulist.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menulist.style.maxHeight == "0px") {
+        menulist.style.maxHeight = "100vh";
+      } else {
+        menulist.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
+
+  <section class="home" id="home">
+    <div class="content">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="../Images/Bang.PNG" alt="">
+          <div class="text">
+            <h1>ชื้อบ้านเช่า</h1>
+            <p>สามารถติดต่อได้ทางหมู่บ้าน บางแวก 53 ที่คุณ กฤษกร รุจิจนากุล โทร 095-325-7775
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a style="color: rgb(12, 178, 243); font-size: 18px;"  href="https://www.instagram.com/k1tpt_/" target="_blank">ติดต่อสอบถาม</a></button> 
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../Images/Bang.PNG" alt="">
+          <div class="text">
+            <h1>จองบ้านเช่า</h1>
+            <p>สามารถติดต่อได้ทางหมู่บ้าน บางแวก 53 ที่คุณ กฤษกร รุจิจนากุล โทร 095-325-7775
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a style="color: rgb(12, 178, 243); font-size: 18px;"  href="https://www.instagram.com/k1tpt_/" target="_blank">ติดต่อสอบถาม</a></button> 
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../Images/Bang.PNG" alt="">
+          <div class="text">
+            <h1>สนใจเช่าบ้าน</h1>
+            <p>สามารถติดต่อได้ทางหมู่บ้าน บางแวก 53 ที่คุณ กฤษกร รุจิจนากุล โทร 095-325-7775
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a style="color: rgb(12, 178, 243); font-size: 18px;"  href="https://www.instagram.com/k1tpt_/" target="_blank">ติดต่อสอบถาม</a></button> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      dots: false,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+
+
+  <section class="about top" id="about">
+    <div class="container flex">
+      <div class="left">
+        <div class="heading">
+          <h2>บ้านเช่าของผมเอง</h2>
+        </div>
+        <p style="font-size: 18px;">บ้านบางแวก 53 ห้องน้ำ 4 ห้อง ห้องนอน 3 ห้อง ห้องครัว 2 ห้อง มีฝักใบ และ แอร์ สามารถติดต่อได้ที่ นาย กฤษกร รุจิจนากุล</p>
+        <button class="primary-btn"><a style="color: white; font-size: 18px;" href="https://www.google.com/maps/@13.7358338,100.4415363,3a,47.9y,142.52h,82.71t/data=!3m7!1e1!3m5!1s8AxH_T18Qulj6LWd7FmRXg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D7.293821258305343%26panoid%3D8AxH_T18Qulj6LWd7FmRXg%26yaw%3D142.51503189400177!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D" target="_blank">ที่อยู่บ้านเรา</a></button>
+      </div>
+      <div class="right">
+        <img width="100%" src="../Images/BangWeak.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="counter top">
+    <div class="container grid">
+      <div class="box">
+        <h1>15,000 บาท</h1>
+        <span>เริ่มต้นที่</span>
+      </div>
+      <div class="box">
+        <h1>3 ห้องนอน</h1>
+        <span></span>
+      </div>
+      <div class="box">
+        <h1>4 ห้องน้ำ</h1>
+        <span>อำนวยความสะดวก</span>
+      </div>
+      <div class="box">
+        <h1>มีแอร์ 5 ตัว</h1>
+        <span>Air Conditioning
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    $('.owl-carousel1').owlCarousel({
+      loop: true,
+      margin: 40,
+      nav: true,
+      dots: false,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2,
+          margin: 10,
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+
+
+
+  <section class="gallery" id="rooms">
+    <div class="container top">
+      <div class="heading">
+        <h2>รูปภาพภายในบ้าน</h2>
+        <p>ติดต่อบ้านเช่า ที่เบอร์ 095-325-7775</p>
+      </div>
+    </div>
+
+    <div class="content mtop">
+      <div class="owl-carousel owl-carousel1 owl-theme">
+        <div class="items">
+          <div class="img">
+            <img src="../Images/house.jpg" alt="">
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="../Images/house2.jpg" alt="">
+          </div>
+        </div>
+        <div class="items">
+          <div class="img">
+            <img src="../Images/house3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    $('.owl-carousel1').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
+      navText: ["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 4,
+        },
+        1000: {
+          items: 6
+        }
+      }
+    })
+  </script>
+
+
+  <script>
+    $('.owl-carousel2').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1,
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+
+
+  <footer>
+    <div class="container grid" id="pages">
+      <div class="box">
+        <img style="border-radius: 2rem;" width="150px" src="../Images/BG1.jpg">
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Link</h2>
+        <ul>
+          <li>เกี่ยวกับ</li>
+          <li>ติดต่อ</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h2>Contact Us</h2>
+        <i class="fa fa-location-dot"></i>
+        <p>บ้านเลขที่ 125 ถนนบางแวก 53 แขวง บางแวก 53 เขตภาษีเจริญ กรุงเทพมหานคร</p> <br>
+        <i class="fa fa-phone"></i>
+        <label>095-325-7775</label> <br>
+        <i class="fa fa-envelope"></i>
+        <label>kisakong1811@gmail.com</label> <br>
+      </div>
+    </div>
+  </footer>
+
+  <div class="legal">
+    <p class="container">Copyright (c) 2024 Copyright By Kitsakorn All Rights Reserved.</p>
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
